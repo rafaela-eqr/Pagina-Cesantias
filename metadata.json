@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Consultoría Laboral en Cesantías",
+  "description": "Plataforma de asesoría financiera experta especializada en la gestión profesional y transparente de cesantías.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
