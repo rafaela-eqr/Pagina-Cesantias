@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
@@ -15,11 +16,23 @@
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "recharts": "^3.7.0"
+=======
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "recharts": "^3.7.0",
+    "react-dom": "^19.2.4",
+    "@google/genai": "^1.41.0",
+    "react": "^19.2.4"
+>>>>>>> 3d8b22844b0ae1a77fc09ee73257a8cffc99c941
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+<<<<<<< HEAD
     "gh-pages": "^6.3.0",
+=======
+>>>>>>> 3d8b22844b0ae1a77fc09ee73257a8cffc99c941
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }

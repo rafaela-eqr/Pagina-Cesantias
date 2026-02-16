@@ -22,7 +22,11 @@ export const LeadForm: React.FC = () => {
     const message = `Hola, mi nombre es ${name}. Mi fondo de cesantías es ${fund}. Deseo recibir asesoría personalizada para la gestión profesional de mis cesantías.`;
     const encodedMessage = encodeURIComponent(message);
     // Replace with your actual WhatsApp Business number
+<<<<<<< HEAD
     const whatsappUrl = `https://api.whatsapp.com/send?phone=573043459499&text=${encodedMessage}`;
+=======
+    const whatsappUrl = `https://wa.me/573000000000?text=${encodedMessage}`;
+>>>>>>> 3d8b22844b0ae1a77fc09ee73257a8cffc99c941
 
     setTimeout(() => {
       window.location.href = whatsappUrl;
